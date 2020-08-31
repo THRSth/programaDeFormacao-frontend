@@ -1,0 +1,18 @@
+.containerBtnTable, .containerTable {
+  width: auto !important;
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1200px){
+  .containerTable {
+    margin: 0 24px;
+  }
+  .containerBtnTable{
+    margin: 50px 24px;
+  }
+}

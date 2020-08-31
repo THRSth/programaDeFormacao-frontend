@@ -1,0 +1,16 @@
+.cabecalho-table {
+  font-family: NunitoSansSemiBold;
+  font-size: 1.11em;
+  font-weight: bold;
+}
+.linha-pedido {
+  font-size: 1em;
+  font-family: Lato;
+  line-height: 1.77em;
+  font-size: 1em;
+}
+.preco-pedido {
+  display: block;
+  color: #006ca8;
+  font-family: Lato;
+}

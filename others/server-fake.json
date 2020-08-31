@@ -1,0 +1,125 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "idComercio": 1,
+      "idCategoria": 3,
+      "nome": "Xaomi",
+      "preco": 200.5,
+      "descricao": "O melhor celular",
+      "quantidade": 80,
+      "status": "Disponivel",
+      "url": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+    },
+    {
+      "id": 2,
+      "idComercio": 1,
+      "idCategoria": 4,
+      "nome": "Prancha de surf",
+      "preco": 2000.5,
+      "descricao": "A melhor prancha de surf",
+      "quantidade": 87,
+      "status": "Indisponivel",
+      "url": "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 3,
+      "idComercio": 2,
+      "idCategoria": 3,
+      "nome": "Iphone X-man",
+      "preco": 180900,
+      "descricao": "Apple",
+      "quantidade": 60,
+      "status": "Disponivel",
+      "url": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+    },
+    {
+      "id": 4,
+      "idComercio": 1,
+      "idCategoria": 3,
+      "nome": "Iphone X-man",
+      "preco": 180900,
+      "descricao": "Apple",
+      "quantidade": 60,
+      "status": "Disponivel",
+      "url": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+    },
+    {
+      "id": 5,
+      "idComercio": 1,
+      "idCategoria": 3,
+      "nome": "Iphone X-man",
+      "preco": 180900,
+      "descricao": "Apple",
+      "quantidade": 60,
+      "status": "Disponivel",
+      "url": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+    },
+    {
+      "id": 6,
+      "idComercio": 2,
+      "idCategoria": 3,
+      "nome": "Nokia",
+      "preco": 2.5,
+      "descricao": "Inquebravel",
+      "quantidade": 38,
+      "status": "Indisponivel",
+      "url": "https://images.unsplash.com/photo-1559312379-6eff3ba65888?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 7,
+      "idComercio": 3,
+      "idCategoria": 2,
+      "nome": "Vestido rosa",
+      "preco": 200.5,
+      "descricao": "O melhor vestido para sair",
+      "quantidade": 27,
+      "status": "Disponivel",
+      "url": "https://images.unsplash.com/photo-1499939667766-4afceb292d05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Tecnologia e informática"
+    },
+    {
+      "id": 2,
+      "nome": "Roupas"
+    },
+    {
+      "id": 3,
+      "nome": "Automotivo"
+    },
+    {
+      "id": 4,
+      "nome": "Brinquedos"
+    },
+    {
+      "id": 5,
+      "nome": "Casa e construção"
+    },
+    {
+      "id": 6,
+      "nome": "Brinquedos"
+    },
+    {
+      "id": 7,
+      "nome": "Artesanato"
+    }
+  ],
+  "comercios": [
+    {
+      "id": 5,
+      "nome": "Padaria do zé",
+      "idCategoria": 1,
+      "url": "https://images.unsplash.com/photo-1556191041-c2401936d851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 1,
+      "nome": "Adega do fulano",
+      "idCategoria": 1,
+      "url": "https://images.unsplash.com/photo-1585350719166-940cf9e674a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"
+    }
+  ]
+}

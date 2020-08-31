@@ -1,0 +1,97 @@
+.container-main{
+    position: relative;
+}
+.container-main::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(.5);
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    animation: slideBackground 60s linear infinite 5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: url('../../assets/img/foto-comercio-0.jpg') center center;
+}
+@keyframes slideBackground{
+    0%{
+        background: url('../../assets/img/foto-comercio-0.jpg') center center;
+    }
+    25%{
+        background: url('../../assets/img/foto-comercio-1.jpg') center center;
+    }
+    50%{
+        background: url('../../assets/img/foto-comercio-2.jpg') center center;
+    }
+    75%{
+        background: url('../../assets/img/foto-comercio-3.jpg') center center;
+    }
+}
+
+.titulo-main, .container-comercios{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-comercios{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+}
+.titulo-main{ 
+    font-size: 4.209em;
+    font-family: NunitoSansSemiBold;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 64px 16px 40px 16px;
+}
+.referencia-foto{
+    color: #d9c4ba;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 32px 0;
+}
+div.div-paginacao > ul.pagination{
+    width: auto;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200px){
+    .container-comercios{
+        margin: 80px auto ;
+        padding: 0 20px;
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
+@media only screen and (max-width: 850px){
+    .container-comercios{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .titulo-main{ 
+        font-size: 3.157em;
+      
+    }
+}
+@media only screen and (max-width: 540px){
+    .container-comercios{
+        margin: 40px auto ;
+        padding: 0 20px;
+        grid-template-columns:  1fr;
+    }
+    .titulo-main{ 
+        font-size: 2.369em;
+        padding: 64px 16px 8px 16px;
+    }
+
+}
